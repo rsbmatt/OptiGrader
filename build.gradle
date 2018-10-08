@@ -1,0 +1,11 @@
+group 'org.mahabal'
+version '0.1'
+
+subprojects {
+    
+    apply plugin: 'java'
+ 
+    repositories {
+        mavenCentral()
+    }
+}
